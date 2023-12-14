@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Mina:wght@400;700&family=Montserrat:wght@500;800&family=Open+Sans:wght@500;600;700&display=swap');
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Mina', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    max-width:100%;
+}
+header{
+    background-color: rgb(253, 247, 194);
+  padding:10px 0;
+}
+.container{
+    width: 1000px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    flex: wrap;
+}
+
+.logo{
+    flex-basis:50%;
+}
+nav{
+    flex-basis:50%;
+}
+.logo img{
+    width: 100px ;
+    
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+   justify-content: flex-end;
+}
+nav ul li a{
+    color: rgb(1, 81, 155);
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+nav ul li a:hover {
+background-color: rgb(238, 193, 71);
+}
+.heroBanner_section {
+    background-color: rgb(243, 211, 170);
+    background-image: url(../images/image7.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-blend-mode: darken;
+
+}
+.heroBanner_section h1{
+ color: rgb(255, 255, 255);
+ font-size: 50px;
+ }
+ .Gallery_section {
+    padding: 50px 0px;
+ }
+ .Gallery {
+    flex: basis 20%;
+     padding: 10px;
+ }
+ .Gallery img {
+display: block;
+ }
